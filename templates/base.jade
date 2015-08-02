@@ -1,0 +1,22 @@
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Ubuntu")
+    link(rel='stylesheet', href='/css/main.css')
+  body
+    .container
+      .header
+        .left-header
+          ul.title
+            li
+              |NOTES
+        .right-header
+          ul.nav
+            li
+              a(href='/') HOME
+            li
+              a(href='/newpost') NEW
+
+      .main
+        hr
+        block content

@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header{
+  margin-top: 0px;
+  width: inherit;
+  line-height: 2.0;
+  font-family: helvetica;
+  height: 80px;
+  color: #000000;
+  position: fixed;
+
+  background-color: white;
+
+
+}
+
+.left-header{
+  float: left;
+  width: 400px;
+}
+
+.right-header{
+  float: left;
+  width: 500px;
+
+}
+.left-header ul.title{
+
+  list-style: none;
+  text-align: left;
+  color: black;
+  font-size: 50px;
+  font-family: helvetica;
+
+}
+
+.right-header ul.nav{
+  font-family: helvetica;
+  font-size: 50px;
+  list-style: none;
+  text-align: right;
+  text-decoration: none;
+  word-spacing: 0.1
+
+}
+
+.right-header ul.nav a{
+  text-decoration: none;
+  color: grey;
+
+}
+
+.right-header ul.nav a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+
+.header ul.nav li{
+  display: inline;
+  padding: 5.0px;
+}
+
+
+.main{
+  float: left;
+  line-height: 1.8;
+  font-family: 'Ubuntu';
+  width: 900px;
+  overflow: auto;
+  margin-top: 100px;
+  text-align: left;
+  font-size: 20px;
+  color: #323232;
+
+}
+
+.thepagetitle{
+  color: black;
+  font-family: arial;
+  font-size: 25px;
+}
+
+input{
+  width: 900px;
+  border: 2px solid #dadada;
+  border-radius: 7px;
+}
+
+input.title{
+  height:25px;
+}
+input.content{
+  height: 75px;
+}
+input:focus{
+  outline: none;
+  border-radius: 7px;
+  border-color: #9ecaed;
+  box-shadow: 0 0 5px #9ecaed;
+}
+
+textarea{
+  border: 2px solid #dadada;
+  border-radius: 7px;
+  width: 100%;
+
+}
+.footer{
+  font-family: serif;
+  width: 900px;
+  height: 20px;
+  color: #000000;
+
+}
