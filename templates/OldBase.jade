@@ -1,0 +1,28 @@
+html
+  head
+    meta(name='viewport', content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Ubuntu")
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap-responsive.min.css')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+    script(src='/bootstrap/js/bootstrap.min.js')
+    style
+      body {padding-top: 100px;}
+  body
+    .container
+      .navbar.navbar-default.navbar-fixed-top
+        .container
+          .navbar-header
+            .navbar-brand
+              |Notes
+          ul.nav.navbar-nav
+            li
+              a(href='/') HOME
+            li
+              a(href='/newpost') NEW
+            li
+              a(href='/login') LOGIN
+
+      .main
+        hr
+        block content

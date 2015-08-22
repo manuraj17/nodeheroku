@@ -1,4 +1,11 @@
 extends base.jade
 block content
-  .jumbotron
-    h1 Welcome to Notes - Watch out for this space
+  each post in posts
+    .thepagetitle
+      | #{post.title}
+    p.
+      #{post.content}
+    a(href="delete/#{post.id}") delete
+    br
+    hr
+    br

@@ -1,25 +1,21 @@
 html
   head
-    meta(name='viewport', content="width=device-width, initial-scale=1")
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
     link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Ubuntu")
-    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
-    link(rel='stylesheet', href='/bootstrap/css/bootstrap-responsive.min.css')
-    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
-    script(src='/bootstrap/js/bootstrap.min.js')
-    style
-      body {padding-top: 100px;}
+    link(rel='stylesheet', href='/css/main.css')
   body
     .container
-      .navbar.navbar-default.navbar-fixed-top
-        .container
-          .navbar-header
-            .navbar-brand
-              |Notes
-          ul.nav.navbar-nav
+      .header
+        .left-header
+          ul.title
             li
-              a(href='/') HOME
+              a(href='/') NOTE
+        .right-header
+          ul.nav
             li
               a(href='/newpost') NEW
+            li
+              a(href='/about') ABOUT
 
       .main
         hr

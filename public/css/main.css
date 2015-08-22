@@ -3,8 +3,13 @@
   padding: 0;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
 
-/*.container{
+
+.container{
   width: 900px;
   margin: 0 auto;
 }
@@ -17,12 +22,9 @@
   height: 80px;
   color: #000000;
   position: fixed;
-
   background-color: white;
-
-
 }
-*/
+
 .left-header{
   float: left;
   width: 400px;
@@ -34,7 +36,6 @@
 
 }
 .left-header ul.title{
-
   list-style: none;
   text-align: left;
   color: black;
@@ -45,7 +46,7 @@
 
 .right-header ul.nav{
   font-family: helvetica;
-  font-size: 50px;
+  font-size: 30px;
   list-style: none;
   text-align: right;
   text-decoration: none;
@@ -70,24 +71,22 @@
   padding: 5.0px;
 }
 
-
 .main{
   float: left;
   line-height: 1.8;
+  text-align: justify;
   font-family: 'Ubuntu';
   width: 900px;
   overflow: auto;
   margin-top: 100px;
-  text-align: left;
-  font-size: 20px;
+  font-size: 25px;
   color: #323232;
-
 }
 
 .thepagetitle{
   color: black;
   font-family: arial;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 input{
